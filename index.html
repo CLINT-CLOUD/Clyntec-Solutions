@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clyntec | Smart Technology Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="description" content="Clyntec provides IT support, CCTV installation, printer solutions and VoIP services in Kenya.">
+<meta name="keywords" content="IT support Kenya, CCTV Nairobi, printer repair Kenya, Kyocera printers">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+</head>
+<body>
+
+<div id="home"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="container nav">
+    <a href="#home" class="brand">
+      <img src="images/Clyntec logo.png" alt="Clyntec Logo" class="logo-img">
+      <div class="logo-text">
+        <span class="logo">CLYNTEC</span>
+        <span class="slogan">Smart Solutions</span>
+      </div>
+    </a>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#printers">Printers</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#" class="careers-link">Careers</a>
+      <a href="#contact-lead" class="nav-cta">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== CAREERS CARD ===== -->
+<div id="careersCard" class="careers-card">
+  <h3>Careers at Clyntec</h3>
+  <p>There are no openings at the moment. Check back soon or send your CV to info@clyntec.co.ke</p>
+  <button id="closeCareersCard">Close</button>
+</div>
+
+<!-- ===== CAROUSEL ===== -->
+<section class="carousel">
+  <div class="carousel-track">
+    <div class="slide active">
+      <img src="images/cables.jpg" alt="Smart Technology Solutions">
+      <div class="slide-overlay"></div>
+      <div class="slide-text">
+        <span class="slide-badge">Kenya's Trusted Tech Partner</span>
+        <h2>Smart Technology<br>Built for Business</h2>
+        <p>Reliable, scalable IT systems that keep your operations running efficiently — from printers to full network infrastructure.</p>
+        <a href="#contact-lead" class="slide-btn">Request a Free Consultation →</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/digital print.jpg" alt="Printer Solutions">
+      <div class="slide-overlay"></div>
+      <div class="slide-text">
+        <span class="slide-badge">Printer Specialists</span>
+        <h2>Complete Printer &amp;<br>Office Solutions</h2>
+        <p>From high-volume Kyocera systems to affordable Epson desktop printers — we supply, install, service, and support.</p>
+        <a href="#printers" class="slide-btn">Explore Printer Packages →</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/security.jpg" alt="Security Systems">
+      <div class="slide-overlay"></div>
+      <div class="slide-text">
+        <span class="slide-badge">Security &amp; Surveillance</span>
+        <h2>Protect What<br>Matters Most</h2>
+        <p>Advanced CCTV and IP surveillance systems professionally installed and monitored for your peace of mind.</p>
+        <a href="#contact-lead" class="slide-btn">Get a Security Assessment →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST BAR ===== -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-inner">
+      <div class="trust-item"><span class="icon"></span> Nairobi-Based & Kenya-Wide</div>
+      <div class="trust-item"><span class="icon"></span> Same-Day Response</div>
+      <div class="trust-item"><span class="icon"></span> Annual Maintenance Contracts</div>
+      <div class="trust-item"><span class="icon"></span> +254 796 615 171</div>
+      <div class="trust-item"><span class="icon">✅</span> Authorised Brand Partners</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== LEAD CAPTURE ===== -->
+<section class="lead-strip" id="contact-lead">
+  <div class="container">
+    <div class="lead-strip-inner">
+      <div class="lead-strip-copy">
+        <span class="section-label" style="color:var(--accent);">Free Consultation</span>
+        <h2>Get a Tailored Quote for Your Business</h2>
+        <p>Tell us what you need — printer fleet management, IT support, CCTV, or networking — and we'll get back to you within 2 hours with a custom proposal.</p>
+        <div style="margin-top:2rem; display:flex; flex-direction:column; gap:0.75rem;">
+          <div class="trust-item"><span class="icon">✅</span> <span style="color:rgba(255,255,255,0.8);font-size:0.9rem;">No obligation, completely free</span></div>
+          <div class="trust-item"><span class="icon">✅</span> <span style="color:rgba(255,255,255,0.8);font-size:0.9rem;">Response within 2 hours</span></div>
+          <div class="trust-item"><span class="icon">✅</span> <span style="color:rgba(255,255,255,0.8);font-size:0.9rem;">Competitive pricing guaranteed</span></div>
+        </div>
+      </div>
+      <div class="lead-form">
+        <h3> Request a Free Quote</h3>
+        <form id="leadForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name *" name="name" required>
+            <input type="text" placeholder="Company Name" name="company">
+          </div>
+          <div class="form-row">
+            <input type="tel" placeholder="Phone Number *" name="phone" required>
+            <input type="email" placeholder="Email Address *" name="email" required>
+          </div>
+          <div class="form-row single">
+            <select name="service" required>
+              <option value="" disabled selected>Service Needed *</option>
+              <option>Printer Sales &amp; Supply</option>
+              <option>Printer Servicing &amp; Repair</option>
+              <option>Toners &amp; Consumables</option>
+              <option>IT Support &amp; Networking</option>
+              <option>CCTV &amp; Security</option>
+              <option>IP Phones / VoIP</option>
+              <option>Software Development</option>
+              <option>Annual Maintenance Contract</option>
+              <option>Multiple Services</option>
+            </select>
+          </div>
+          <div class="form-row single">
+            <textarea placeholder="Tell us more about your requirements..." name="message"></textarea>
+          </div>
+          <button type="submit" class="btn-lead"> Get My Free Quote</button>
+        </form>
+        <div id="leadSuccess" class="success-msg">✅ Thank you! We'll contact you within 2 hours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRINTER FOCUS ===== -->
+<section class="printer-focus reveal" id="printers">
+  <div class="container">
+    <div class="printer-hero-grid">
+      <div class="printer-hero-img">
+        <img src="images/kyocera.jpeg" alt="Kyocera Printers">
+        <div class="img-badge"> Authorised Kyocera Partner</div>
+      </div>
+      <div>
+        <span class="section-label">Our Core Speciality</span>
+        <h2 class="section-title">Kenya's Printer<br>Solutions Experts</h2>
+        <p class="section-sub">From single-office printers to enterprise-wide fleet management — we provide everything your business needs to print smarter and spend less.</p>
+
+        <div class="printer-stats">
+          <div class="stat-box">
+            <div class="num">100+</div>
+            <div class="label">Printers Deployed</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">24hr</div>
+            <div class="label">Service Response</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">AMC</div>
+            <div class="label">Annual Contracts Available</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">6+</div>
+            <div class="label">Leading Brands Stocked</div>
+          </div>
+        </div>
+
+        <ul class="printer-checklist">
+          <li>New & certified refurbished printers — Kyocera, Epson, Konica Minolta, HP</li>
+          <li>Genuine toners, cartridges, drums & paper supply</li>
+          <li>On-site installation, network configuration & staff training</li>
+          <li>Scheduled preventive maintenance & emergency repairs</li>
+          <li>Annual Maintenance Contracts (AMC) with SLA guarantees</li>
+          <li>Printer fleet audits — reduce waste, reduce costs</li>
+        </ul>
+
+        <a href="#contact-lead" class="btn-primary">Get a Printer Quote →</a>
+        <a href="#packages" class="btn-outline">View Packages</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PACKAGES ===== -->
+<section class="packages reveal" id="packages">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">Printer Packages</span>
+      <h2 class="section-title">Choose What Fits Your Business</h2>
+      <p class="section-sub">Flexible options for startups, growing SMEs, and large enterprises. All packages include installation and support.</p>
+    </div>
+    <div class="packages-grid">
+      <div class="pkg-card">
+        <div class="pkg-icon"></div>
+        <h3>Starter Office</h3>
+        <p>Perfect for small offices and home businesses needing reliable desktop printing.</p>
+        <ul class="pkg-features">
+          <li>Desktop inkjet or laser printer</li>
+          <li>Setup & network configuration</li>
+          <li>Starter toner/cartridge supply</li>
+          <li>3-month support included</li>
+          <li>Epson / HP options available</li>
+        </ul>
+        <button class="pkg-cta" onclick="openModal('Starter Office Package')">Request a Quote</button>
+      </div>
+
+      <div class="pkg-card featured">
+        <div class="pkg-badge">Most Popular</div>
+        <div class="pkg-icon"></div>
+        <h3>Business Pro</h3>
+        <p>Ideal for growing businesses needing high-volume, multifunction printing solutions.</p>
+        <ul class="pkg-features">
+          <li>Kyocera / Konica Minolta MFP</li>
+          <li>Print, copy, scan, fax</li>
+          <li>Network & wireless setup</li>
+          <li>6-month consumables plan</li>
+          <li>Quarterly maintenance visits</li>
+          <li>Priority helpdesk support</li>
+        </ul>
+        <button class="pkg-cta" onclick="openModal('Business Pro Package')">Request a Quote</button>
+      </div>
+
+      <div class="pkg-card">
+        <div class="pkg-icon"></div>
+        <h3>Enterprise AMC</h3>
+        <p>Full annual maintenance contract for organisations with printer fleets of any size.</p>
+        <ul class="pkg-features">
+          <li>Fleet audit & optimisation</li>
+          <li>Unlimited service calls</li>
+          <li>All parts & labour included</li>
+          <li>Monthly consumables delivery</li>
+          <li>24hr SLA response guarantee</li>
+          <li>Dedicated account manager</li>
+        </ul>
+        <button class="pkg-cta" onclick="openModal('Enterprise AMC Package')">Request a Quote</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services reveal" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Full-Spectrum IT Solutions</h2>
+      <p class="section-sub">Beyond printers — we cover all the technology needs of modern Kenyan businesses.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="images/support.jpg" alt="IT Support">
+        <h3> IT Support & Networking</h3>
+        <p>Structured cabling, server setup, PC maintenance, and full network solutions to keep your business connected and secure.</p>
+        <a href="#contact-lead">Get IT Support Quote →</a>
+      </div>
+      <div class="service-card">
+        <img src="images/hikvision.jpg" alt="CCTV">
+        <h3> CCTV & Security Systems</h3>
+        <p>Hikvision & Dahua surveillance solutions — professionally installed with remote monitoring and full maintenance support.</p>
+        <a href="#contact-lead">Get Security Quote →</a>
+      </div>
+      <div class="service-card">
+        <img src="images/Yealink IP Phone Dubai.jpg" alt="IP Phones">
+        <h3> IP Phones & VoIP</h3>
+        <p>Modern Yealink VoIP systems that reduce communication costs and improve internal collaboration for your team.</p>
+        <a href="#contact-lead">Get VoIP Quote →</a>
+      </div>
+      <div class="service-card">
+        <img src="images/code.jpg" alt="Software">
+        <h3> Software Development</h3>
+        <p>Custom business software, API integrations, and workflow automation designed to streamline your operations.</p>
+        <a href="#contact-lead">Discuss a Project →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUOTE STRIP ===== -->
+<section class="quote-strip reveal">
+  <div class="container">
+    <div class="quote-strip-inner">
+      <div>
+        <h3>Need Toners, Cartridges<br>or Office Supplies Urgently?</h3>
+        <p>We deliver genuine consumables for all major printer brands across Nairobi and beyond.</p>
+      </div>
+      <div class="quote-strip-actions">
+        <a href="https://wa.me/254796615171" class="btn-primary" target="_blank" rel="noopener">💬 Order via WhatsApp</a>
+        <a href="#contact-lead" class="btn-outline">Request Delivery Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CLYNTEC ===== -->
+<section class="why reveal" id="about">
+  <div class="container">
+    <span class="section-label">Why Clyntec</span>
+    <h2 class="section-title">The Partner Businesses Trust</h2>
+    <p class="section-sub">We don't just sell technology — we build long-term relationships with businesses across Kenya.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Fast Response</h4>
+        <p>Same-day service calls within Nairobi. 24hr SLA guaranteed on all maintenance contracts.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Authorised Partners</h4>
+        <p>Official partners for Kyocera, Hikvision, Yealink, Dahua, Epson, and Konica Minolta.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Competitive Pricing</h4>
+        <p>Transparent pricing with no hidden costs. We match or beat any like-for-like quote.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Expert Technicians</h4>
+        <p>Our certified engineers have hands-on experience with hundreds of installations and repairs.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Flexible Contracts</h4>
+        <p>Annual maintenance contracts tailored to your budget — monthly, quarterly, or annual billing.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"></div>
+        <h4>Kenya-Wide Coverage</h4>
+        <p>Headquartered in Nairobi with service coverage across major towns in Kenya.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OUR CLIENTS ===== -->
+<section class="clients reveal">
+  <div class="container">
+    <div class="section-head" style="text-align:center;">
+      <span class="section-label">Trusted By</span>
+      <h2 class="section-title">Our Clients</h2>
+      <p class="section-sub" style="margin:auto;">
+        Businesses and organizations that trust Clyntec for technology solutions.
+      </p>
+    </div>
+
+    <div class="clients-grid">
+      <div class="client-logo">
+        <img src="images/Client 1.jpg" alt="Client 1">
+      </div>
+
+      <div class="client-logo">
+        <img src="images/Client 2.jpg" alt="Client 2">
+      </div>
+
+      <div class="client-logo">
+        <img src="images/Client 3.jpg" alt="Client 3">
+      </div>
+
+      <div class="client-logo">
+        <img src="images/client 4.jpg" alt="Client 4">
+      </div>
+
+      <div class="client-logo">
+        <img src="images/client 5.jpg" alt="Client 5">
+      </div>
+
+      <div class="client-logo">
+        <img src="images/Client 6.jpg" alt="Client 6">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BRANDS ===== -->
+<section class="brands reveal" id="brands">
+  <div class="container">
+    <span class="section-label" style="display:block; text-align:center;">Authorised Partners</span>
+    <h2 class="section-title" style="text-align:center;">Brands We Deal With</h2>
+    <p class="section-sub">We stock, service, and support products from the world's leading technology brands.</p>
+  </div>
+  <div class="brands-slider" style="margin-top:2rem; padding: 0.5rem 0;">
+    <div class="brands-track">
+      <div class="brand-slide"><img src="images/kyo.png" alt="Kyocera"></div>
+      <div class="brand-slide"><img src="images/Hikvision Logo.jpg" alt="Hikvision"></div>
+      <div class="brand-slide"><img src="images/Yealink-Logo.webp" alt="Yealink"></div>
+      <div class="brand-slide"><img src="images/Dahua_Technology_logo.svg.png" alt="Dahua"></div>
+      <div class="brand-slide"><img src="images/Epson Logo.jpg" alt="Epson"></div>
+      <div class="brand-slide"><img src="images/konica.jpg" alt="Konica Minolta"></div>
+      <div class="brand-slide"><img src="images/hp.jpg" alt="HP"></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="brand-slide"><img src="images/kyo.png" alt="Kyocera"></div>
+      <div class="brand-slide"><img src="images/Hikvision Logo.jpg" alt="Hikvision"></div>
+      <div class="brand-slide"><img src="images/Yealink-Logo.webp" alt="Yealink"></div>
+      <div class="brand-slide"><img src="images/Dahua_Technology_logo.svg.png" alt="Dahua"></div>
+      <div class="brand-slide"><img src="images/Epson Logo.jpg" alt="Epson"></div>
+      <div class="brand-slide"><img src="images/konica.jpg" alt="Konica Minolta"></div>
+      <div class="brand-slide"><img src="images/hp.jpg" alt="HP"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section reveal">
+  <div class="container">
+    <h2>Ready to Upgrade Your Business Technology?</h2>
+    <p>Join businesses across Kenya who trust Clyntec for reliable, cost-effective IT solutions.</p>
+    <div class="cta-btns">
+      <a href="#contact-lead" class="btn-white"> Get a Free Quote Today</a>
+      <a href="https://wa.me/254796615171" class="btn-ghost" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-footer">CLYNTEC</div>
+        <p>Smart Technology Solutions for modern businesses. Specialists in printers, IT support, CCTV, and more — serving Kenya since 2020.</p>
+        <div style="margin-top:1.2rem;">
+          <p style="color:rgba(255,255,255,0.5); font-size:0.85rem;"> Nairobi, Kenya</p>
+          <p style="color:rgba(255,255,255,0.5); font-size:0.85rem;"> +254 796 615 171</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#printers">Printer Solutions</a>
+        <a href="#services">IT Support & Networking</a>
+        <a href="#services">CCTV & Security</a>
+        <a href="#services">IP Phones & VoIP</a>
+        <a href="#services">Software Development</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About Clyntec</a>
+        <a href="#packages">Packages & Pricing</a>
+        <a href="#" class="careers-link">Careers</a>
+        <a href="#contact-lead">Get a Quote</a>
+        <a href="https://wa.me/254796615171" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Clyntec — Smart Technology Solutions. All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/profile.php?id=100067294359413" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="#fff"><path d="M22.675 0h-21.35C.596 0 0 .592 0 1.32v21.36C0 23.408.596 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.098 2.795.142v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.324-.592 1.324-1.32V1.32C24 .592 23.405 0 22.675 0z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/YourProfile" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.402a4.92 4.92 0 011.77 1.042 4.918 4.918 0 011.042 1.77c.163.458.347 1.258.403 2.428.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.92 4.92 0 01-1.042 1.77 4.918 4.918 0 01-1.77 1.042c-.458.163-1.258.347-2.428.403-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.918 4.918 0 01-1.77-1.042 4.918 4.918 0 01-1.042-1.77c-.163-.458-.347-1.258-.403-2.428C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.918 4.918 0 011.042-1.77 4.918 4.918 0 011.77-1.042c.458-.163 1.258-.347 2.428-.403C8.416 2.175 8.736 2.163 12 2.163zm0-2.163C8.736 0 8.332.012 7.052.07 5.772.127 4.667.31 3.76.635 2.859.96 2.08 1.442 1.343 2.18.607 2.918.125 3.696-.2 4.597c-.325.906-.508 2.011-.565 3.29C-.012 8.332 0 8.736 0 12c0 3.264.012 3.668.07 4.948.057 1.279.24 2.384.565 3.29.325.901.807 1.679 1.543 2.416.738.737 1.516 1.219 2.416 1.544.906.325 2.011.508 3.29.565C8.332 23.988 8.736 24 12 24s3.668-.012 4.948-.07c1.279-.057 2.384-.24 3.29-.565.901-.325 1.679-.807 2.416-1.544.737-.737 1.219-1.515 1.544-2.416.325-.906.508-2.011.565-3.29.058-1.28.07-1.684.07-4.948s-.012-3.668-.07-4.948c-.057-1.279-.24-2.384-.565-3.29-.325-.901-.807-1.679-1.544-2.416-.737-.737-1.515-1.219-2.416-1.544-.906-.325-2.011-.508-3.29-.565C15.668.012 15.264 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.881 0 1.44 1.44 0 012.881 0z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/YourProfile" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="#fff"><path d="M22.23 0H1.77C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.77 24h20.46c.978 0 1.77-.773 1.77-1.729V1.729C24 .774 23.208 0 22.23 0zM7.081 20.452H3.548V9h3.533v11.452zM5.314 7.433a2.048 2.048 0 110-4.096 2.048 2.048 0 010 4.096zm15.138 13.019h-3.533v-5.605c0-1.338-.026-3.062-1.865-3.062-1.867 0-2.153 1.459-2.153 2.968v5.699h-3.534V9h3.395v1.561h.048c.473-.9 1.632-1.847 3.36-1.847 3.594 0 4.259 2.368 4.259 5.452v6.286z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== CONTACT MODAL ===== -->
+<div id="contactModal" class="contact-modal">
+  <div class="modal-content">
+    <span class="close-modal" id="closeModal">&times;</span>
+    <h2>Request a Quote</h2>
+    <p id="modalSubtitle">Fill in your details and we'll prepare a custom proposal for you.</p>
+    <form class="modal-form" id="contactForm">
+      <input type="hidden" name="package" id="modalPackageField">
+      <input type="text" name="name" placeholder="Your Name *" required>
+      <input type="email" name="email" placeholder="Email Address *" required>
+      <input type="tel" name="phone" placeholder="Phone Number *" required>
+      <textarea name="message" placeholder="Tell us more about your requirements..." rows="3"></textarea>
+      <button type="submit" class="modal-submit">Send Request →</button>
+    </form>
+    <div id="contactSuccess" class="success-msg">✅ Thank you! We'll be in touch within 2 hours.</div>
+  </div>
+</div>
+
+<!-- ===== WHATSAPP FLOAT ===== -->
+<a href="https://wa.me/254796615171" class="whatsapp-float" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
