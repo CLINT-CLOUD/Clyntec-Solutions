@@ -1,11 +1,56 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.clyntec.co.ke/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.clyntec.co.ke/printer-solutions.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.clyntec.co.ke/cctv-security.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.clyntec.co.ke/it-support-networking.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.clyntec.co.ke/voip-ip-phones.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.clyntec.co.ke/software-development.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.clyntec.co.ke/about.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.clyntec.co.ke/contact.html</loc><priority>0.8</priority></url>
+
+  <url>
+    <loc>https://www.clyntec.co.ke/</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/cctv-security.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/it-support-networking.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/voip-ip-phones.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/software-development.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/about.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/service-areas.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-eldoret.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-kisumu.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-meru.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-mombasa.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-nakuru.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-nyeri.html</loc>
+  </url>
+  <url>
+    <loc>https://www.clyntec.co.ke/printer-solutions-thika.html</loc>
+  </url>
+
 </urlset>
+```
